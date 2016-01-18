@@ -13,13 +13,13 @@ function __construct($link) {
 
 
 // Time Related Variables
-public $booking_start_time          = "11:30";			// The time of the first slot in 24 hour H:M format  
-public $booking_end_time            = "17:00"; 			// The time of the last slot in 24 hour H:M format  
+public $booking_start_time          = "09:30";			// The time of the first slot in 24 hour H:M format  
+public $booking_end_time            = "19:00"; 			// The time of the last slot in 24 hour H:M format  
 public $booking_frequency           = 30;   			// The slot frequency per hour, expressed in minutes.  	
 
 // Day Related Variables
 
-public $day_format					= 3;				// Day format of the table header.  Possible values (1, 2, 3)   
+public $day_format					= 1;				// Day format of the table header.  Possible values (1, 2, 3)   
 															// 1 = Show First digit, eg: "M"
 															// 2 = Show First 3 letters, eg: "Mon"
 															// 3 = Full Day, eg: "Monday"
@@ -29,7 +29,7 @@ public $day_closed_text				= "CLOSED"; 		// If you don't want any any 'closed' r
 
 // Cost Related Variables
 public $cost_per_slot				= 20.50;			// The cost per slot
-public $cost_currency_tag			= "&euro;";		// The currency tag in HTML such as &euro; &pound; &yen;
+public $cost_currency_tag			= "&pound;";		// The currency tag in HTML such as &euro; &pound; &yen;
 
 
 //  DO NOT EDIT BELOW THIS LINE

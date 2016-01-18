@@ -1,6 +1,6 @@
 <?php
 
-include('php/connect.php'); 
+include('login/connect.php'); 
 
 if(isset($_POST['slots_booked'])) $slots_booked = mysqli_real_escape_string($link, $_POST['slots_booked']);
 if(isset($_POST['name'])) $name = mysqli_real_escape_string($link, $_POST['name']);
@@ -39,7 +39,7 @@ print_r('</pre>');
 
 ?>
 
-<!DOCTYPE HTML>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 
